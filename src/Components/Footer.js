@@ -7,6 +7,8 @@ export default function Footer() {
         display: 'grid',
         gridTemplateColumns: 'auto auto auto auto',
         margin: '0 350px',
+        justifyItems:' start',
+        justifyContent: 'start'
       }}
     >
       <div className="Footer">
