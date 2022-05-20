@@ -1,7 +1,14 @@
 import React from 'react';
 import '../style.css';
+
+
+
+
+
 export default function Component1() {
   return (
+
+
     <div className="Component1">
       <h2 style={{ marginTop: 50 }}>iPhone 12</h2>
       <h3>Morado. Soñado</h3>
@@ -14,4 +21,8 @@ export default function Component1() {
       />
     </div>
   );
+
+
+
+  
 }

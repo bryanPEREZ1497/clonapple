@@ -14,16 +14,22 @@ import Component9 from './Components/Component9';
 export default function App() {
   return (
     <div className="maincontainer">
-      <NavBar />
+      <NavBar
+        style={{
+          display: 'block',
+        }}
+      />
       <Component1 />
       <Component2 />
       <Component3 />
       <Component4 />
       <Component5 />
-      <Component6 />
-      <Component7 />
-      <Component8 />
-      <Component9 />
+      <div className="grid">
+        <Component6 className="cell" />
+        <Component7 className="cell" />
+        <Component8 className="cell" />
+        <Component9 className="cell" />
+      </div>
       <Footer />
     </div>
   );
